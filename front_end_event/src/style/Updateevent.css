@@ -1,0 +1,62 @@
+/* Add some baseline styles */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6e6363; /* Light red for labels */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .col-25 {
+    width: 25%;
+    float: left;
+    padding: 0 10px;
+  }
+  
+  /* Colorful approach */
+  .form-group:nth-child(even) { /* Even form groups (background) */
+    background-color: #f5f5f5; /* Light gray */
+  }
+  
+  .form-group:nth-child(odd) { /* Odd form groups (background) */
+    background-color: #fafafa; /* Light gray (alternate) */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    background-color: transparent; /* Transparent background for fields */
+    border-color: #ddd; /* Light gray border */
+    color: #3f51b5; /* Deep blue text */
+  }
+  
+  button[type="submit"] {
+    background-color: #9ccc65; /* Light green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #428bca; /* Light blue on hover */
+  }
+  

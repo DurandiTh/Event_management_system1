@@ -1,0 +1,43 @@
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+   */
+
+
+   table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-shadow: 1px 1px 2px black; /* Optional subtle shadow */
+  }
+  
+  tr:nth-child(even) { /* Even rows (background color) */
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover { /* Hover effect (background and text color) */
+    background-color: #ddd;
+    color: #4CAF50; /* Same green as header */
+  }
+  

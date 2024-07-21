@@ -1,0 +1,24 @@
+.welcome-sec{
+    text-align: center;
+}
+
+button{
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3;
+  }
+
+.col-25{
+    float: left;
+    width: 25%;
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 12px;
+    
+    
+}
